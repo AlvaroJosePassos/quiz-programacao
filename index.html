@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <title>Quiz Programação</title>
+    <script src="assets/js/comportamento.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <main>
+        <div class="score-container">
+            <p id="score-header">Pontuação</p>
+            <p id="score">0/5</p>
+        </div>
+
+        <section id="quiz">
+            <div id="quiz-poo">
+                <h2>Quais os principios da POO?</h2>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)" id="
+                        button-wrong-poo">rapidez, conjectura, mobilidade e centralidade</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)" id="button-wrong-poo"
+                        onclick="errou(this)">correção, objeção e polimorfismo</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="correct-button" onclick="acertou(this)" id="button-correct-poo"
+                        onclick="acertou(this)">encapsulamento, herança, polimorfismo e abstração</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)" id=" button-wrong-poo"
+                        onclick="errou(this)">validação, generalidade, universalidade e mobilidade</button>
+                </label>
+                <br>
+                <p class="result"></p>
+            </div>
+
+            <div id="quiz-front-end">
+                <h2>Qual das seguintes linguagens de programação é tipicamente usada para desenvolvimento web front-end?
+                </h2>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-front-end">Java</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="correct-button" onclick="acertou(this)"
+                        id="button-correct-front-end">JavaScript</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-front-end">Python</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-front-end">Html</button>
+                </label>
+                <br>
+                <p class="result"></p>
+            </div>
+
+            <div id="quiz-refactoring">
+                <h2>Qual é o objetivo da técnica de "refactoring" em programação?
+                </h2>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-refactoring">Resolver bugs em código existente</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)" id="button-wrong-refactoring">Criar
+                        novos recursos em um software</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="correct-button" onclick="acertou(this)"
+                        id="button-correct-refactoring">Melhorar a qualidade do código existente sem alterar sua
+                        funcionalidade</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-refactoring">Otimizar o desempenho do software existente</button>
+                </label>
+                <br>
+                <p class="result"></p>
+            </div>
+
+            <div id="quiz-test-software">
+                <h2>Qual é o nome do processo de teste de software que verifica se as diferentes partes do sistema
+                    funcionam juntas corretamente?</h2>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-test-software">Teste de unidade</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-test-software">Teste funcional</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-test-software">Teste de aceitação</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="correct-button" onclick="acertou(this)"
+                        id="button-correct-test-software">Teste de integração</button>
+                </label>
+                <br>
+                <p class="result"></p>
+            </div>
+
+            <div id="quiz-debugging">
+                <h2>Qual é o objetivo da técnica de "debugging" em programação</h2>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-debugging">Melhorar a qualidade do código existente sem alterar sua
+                        funcionalidade</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)" id="button-wrong-debugging">Criar
+                        novos recursos em um software</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="correct-button" onclick="acertou(this)"
+                        id="button-correct-debugging">Encontrar e corrigir bugs em código existente</button>
+                </label>
+                <br>
+                <label>
+                    <button type="button" class="wrong-button" onclick="errou(this)"
+                        id="button-wrong-debugging">Otimizar o desempenho do software existente</button>
+                </label>
+                <br>
+                <p class="result"></p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
+
+
+
+
+</body>
+
+</html>

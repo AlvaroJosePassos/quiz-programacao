@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c7d9f9;
+}
+
+header {
+    background-color: #c7d9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    color: #333;
+}
+
+main {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    cursor: pointer;
+    border-radius: 0.5em;
+    transition: background-color 0.5s, transform 0.8s;
+}
+
+button:hover {
+    background-color: #eee;
+}
+
+.wrong-button:disabled {
+    background-color: #ff7f7f;
+    transform: scale(0.9);
+    color: #fff;
+}
+
+.correct-button:disabled {
+    background-color: #32CD32;
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.result {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.score-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #69c6b8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#score-header {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#score {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    z-index: 9999;
+}
+
+.answered {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.correct {
+    background-color: #32CD32;
+    color: #fff;
+}
+
+.wrong {
+    background-color: #ff7f7f;
+    color: #fff;
+}
+
+img {
+    width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .score-container {
+        padding: 1px;
+    }
+
+    #score-header {
+        font-size: 9px;
+    }
+
+    #score {
+        font-size: 18px;
+    }
+}
